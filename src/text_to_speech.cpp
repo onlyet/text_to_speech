@@ -254,7 +254,7 @@ static int tts_main(SpeechSynsContext *ssc)
 	/*
 	*--Insufficient authorization, and there are 500 daily restrictions on the number of online calls
 	*/
-	const char* login_params = "appid = 58623137, work_dir = .";//登录参数,appid与msc库绑定,请勿随意改动  
+	const char* login_params = "appid = 596f2c50, work_dir = .";//登录参数,appid与msc库绑定,请勿随意改动  
 
 																/* 用户登录 */
 	ret = MSPLogin(NULL, NULL, login_params); //第一个参数是用户名，第二个参数是密码，第三个参数是登录参数，用户名和密码可在http://www.xfyun.cn注册获取  
